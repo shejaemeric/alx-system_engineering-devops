@@ -1,0 +1,5 @@
+#!/usr/bin/bash
+# display its own pid
+
+
+echo $$
