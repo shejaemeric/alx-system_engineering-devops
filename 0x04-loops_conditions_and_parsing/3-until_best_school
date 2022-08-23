@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# print Best school using until loop
+
+i=0
+until [ $i -eq 9 ]
+do
+    echo "Best School"
+    ((i++))
+done
