@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Add the SSH public key below to your server so that we can connect using the ubuntu user.
-host 3.238.250.178
+host 34.231.122.141
 
 	user ubuntu
 	IdentityFile ~/.ssh/school
