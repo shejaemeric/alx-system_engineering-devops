@@ -9,5 +9,6 @@
 apt update
 apt install -y nginx
 ufw allow 'Nginx HTTP'
+chmod -R 755 /var/www
 echo "Hello World!" > /var/www/html/index.html
 service nginx restart
