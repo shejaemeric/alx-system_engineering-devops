@@ -6,8 +6,8 @@
 # 'Holberton School'.
 #
 
-sudo apt update
-sudo apt install nginx
+apt-get -y install nginx
+service ngix start
 ufw allow 'Nginx HTTP'
 echo "Hello World!" > /var/www/html/index.html
 service nginx restart
