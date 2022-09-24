@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# debug an error to display hello hoberlton on docker
+/etc/init.d/apache2 start
