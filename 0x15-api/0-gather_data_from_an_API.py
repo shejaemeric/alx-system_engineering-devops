@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+"""module to get requests"""
+
 import requests
 import sys
 
